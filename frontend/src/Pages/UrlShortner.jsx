@@ -1,7 +1,7 @@
 import { Container, TextInput } from '@mantine/core'
-import UrlForm from '../Components/UrlForm'
-import UrlResponse from '../Components/UrlResponse';
 import { useState } from 'react';
+import UrlForm from './UrlForm';
+import UrlResponse from './UrlResponse';
 
 
 export default function UrlShortener() {
@@ -9,7 +9,9 @@ export default function UrlShortener() {
  
    return (
        <Container size={"xs"}>
-           {response?<UrlResponse response = {response}/>:<UrlForm setResponse={setResponse}/>}
+           {response?<UrlResponse setResponse={setResponse} response = {response}/>:<UrlForm setResponse={setResponse}/>}
        </Container>
+       
+
    )
 }
