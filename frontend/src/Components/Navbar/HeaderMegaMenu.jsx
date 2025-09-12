@@ -18,9 +18,12 @@ import {
 } from '../../redux/slices/User';
 import classes from './HeaderMegaMenu.module.css';
 
+
+
 const navLinks = [
-  { to: '/', label: 'Home' },
-  { to: '/profile', label: 'Profile' },
+ { to: '/', label: 'Home' },
+ { to: '/profile', label: 'Profile' },
+ { to: '/url/shortener', label: 'Url Shortener' },
 ];
 
 export function HeaderMegaMenu() {

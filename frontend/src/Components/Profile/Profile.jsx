@@ -39,7 +39,7 @@ export default function Profile() {
 
         <Stack align="center" spacing="sm" mt="md">
           <Text size="xl" fw={800} c="gray.8" style={{ fontFamily: "cursive" }}>
-            Mahesh
+            Nousheen
           </Text>
           <Text size="sm" fw={500} c="gray.6" style={{ fontFamily: "monospace" }}>
             nousheen0116@gmail.com
